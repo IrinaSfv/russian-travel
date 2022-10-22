@@ -1,0 +1,6 @@
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .cover__subtitle_device_desktop {
+        display: none;
+    }
+}

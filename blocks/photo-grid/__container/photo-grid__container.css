@@ -1,0 +1,42 @@
+.photo-grid__container {
+    box-sizing: border-box;
+    padding: 0 48px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-auto-rows: minmax(min-content, max-content);
+    gap: 16px;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+@media screen and (max-width: 1124px) {
+    /* для небольших ноутбуков */
+    .photo-grid__container {
+        grid-template-columns: repeat(3, minmax(min-content, max-content));
+        grid-template-rows: repeat(4, minmax(min-content, max-content));
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    /* от вертикального до горизонтального положения планшета */
+    .photo-grid__container {
+        padding: 0 24px;
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
+        grid-template-rows: repeat(6, minmax(min-content, max-content));
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .photo-grid__container {
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}

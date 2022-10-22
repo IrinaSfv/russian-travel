@@ -1,0 +1,34 @@
+.lead__container {
+    box-sizing: border-box;
+    padding: 0 148px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Основной код для разрешения 1280px */
+
+@media screen and (max-width: 1124px) {
+    /* для небольших ноутбуков */
+    
+    .lead__container {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    /* от вертикального до горизонтального положения планшета */
+    .lead__container {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .lead__container {
+        padding: 0;
+    }
+}

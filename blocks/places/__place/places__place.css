@@ -1,0 +1,25 @@
+.places__place {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 47% 49%;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1124px) {
+    /* для небольших ноутбуков */
+    .places__place {
+        gap: 48px 32px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .places__place {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+}

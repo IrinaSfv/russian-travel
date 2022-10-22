@@ -1,0 +1,13 @@
+.places__image {
+    width: 100%;
+    object-fit: cover;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .places__image {
+        width: 100%;
+    }
+}

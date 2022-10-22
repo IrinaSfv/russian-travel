@@ -1,0 +1,12 @@
+.places__paragraphs {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+@media screen and (max-width: 568px) {
+    /* мобильные устройства */
+    .places__paragraphs {
+        padding: 0 16px;
+        align-self: center;
+    }
+}

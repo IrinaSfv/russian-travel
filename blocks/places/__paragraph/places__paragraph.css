@@ -1,0 +1,22 @@
+.places__paragraph {
+    margin: 0;
+    margin-bottom: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+}
+
+.places__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 984px) {
+    /* от вертикального до горизонтального положения планшета */
+    .places__paragraph {
+        margin: 0;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+}
