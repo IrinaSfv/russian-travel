@@ -4,9 +4,8 @@
     min-height: 100vh;
     margin: 0 auto;
     padding: 28px 0 24px;
-    overflow-x: hidden;
     background-color: #2A2C2F;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     color: #FFF;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;

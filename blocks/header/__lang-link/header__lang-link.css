@@ -1,15 +1,17 @@
 .header__lang-link {
     margin: 0;
-    margin-right: 18px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 117%;
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-.header__lang-link:last-of-type {
-    margin-right: 0;
+.header__lang-link:hover {
+        opacity: 0.8;
 }
 
 @media screen and (max-width: 568px) {
