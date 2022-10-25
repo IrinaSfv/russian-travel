@@ -1,4 +1,4 @@
-.places__place {
+.place {
     width: 100%;
     display: grid;
     grid-template-columns: 47% 49%;
@@ -9,14 +9,14 @@
 
 @media screen and (max-width: 1124px) {
     /* для небольших ноутбуков */
-    .places__place {
+    .place {
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width: 568px) {
     /* мобильные устройства */
-    .places__place {
+    .place {
         margin: 0;
         display: flex;
         flex-direction: column;

@@ -9,11 +9,12 @@
     line-height: 104%;
     text-align: center;
 }
-@media screen and (max-width: 670px) {
+
+@media screen and (max-width: 700px) {
     .lead__title {
-        font-size: 60px;
+        font-size: 72px;
         max-width: 100%;
-}
+    }
 }
 
 @media screen and (max-width: 568px) {
